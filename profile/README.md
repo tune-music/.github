@@ -2,29 +2,32 @@
 
 <h1 align="center">Tune Music</h1>
 
-<p align="center">Клиент Яндекс Музыки для Windows с темами, плагинами и улучшениями.</p>
+<p align="center">Независимые клиенты Яндекс Музыки для Windows, iOS и Android.</p>
 
 <p align="center">
   <a href="https://tune-music.github.io/tune/">Сайт</a> ·
-  <a href="https://github.com/tune-music/tune/releases/latest">Скачать Tune</a> ·
-  <a href="https://github.com/tune-music/tune-native/releases/latest">Скачать Tune Native</a> ·
-  <a href="https://github.com/tune-music/tune/issues">Сообщить о проблеме</a>
+  <a href="https://github.com/tune-music/tune/releases/latest">Tune (Windows)</a> ·
+  <a href="https://github.com/tune-music/tune-native/releases/latest">Tune Native (Windows)</a> ·
+  <a href="https://github.com/tune-music/tune-ios/releases/latest">Tune (iOS)</a> ·
+  <a href="https://github.com/tune-music/tune-android/releases/latest">Tune (Android)</a>
 </p>
 
 ## Проекты
 
-| Репозиторий | Что внутри |
-| --- | --- |
-| [**tune**](https://github.com/tune-music/tune) | Сам клиент: темы и скрипты PulseSync и Next Music, синхронный текст песен, треки без цензуры, скачивание, найткор и слоуд, Discord, медиапанель Windows. |
-| [**tune-native**](https://github.com/tune-music/tune-native) <sup>новое</sup> | Быстрый клиент на Rust: интерфейс рисуется видеокартой, а не встроенным браузером, — один процесс и втрое меньше памяти. Привычная Яндекс Музыка, без цензуры, скачивание, тема Aquarium с Liquid Glass, обновления приходят сами. Ранняя версия. |
-| [**next-music-themes**](https://github.com/tune-music/next-music-themes) | Темы и аддоны для Next Music — работают и в Tune. |
+| Репозиторий | Платформа | Описание |
+| --- | --- | --- |
+| [**tune**](https://github.com/tune-music/tune) | Windows 10/11 | Клиент Яндекс Музыки с темами и скриптами PulseSync и Next Music, синхронным текстом песен, треками без цензуры, «Моей волной» со своими треками, скачиванием, найткором, статусом в Discord, Яндекс Станциями и медиапанелью Windows. |
+| [**tune-native**](https://github.com/tune-music/tune-native) | Windows 10/11 | Нативный клиент на Rust с отрисовкой интерфейса на видеокарте: главная, «Моя волна», коллекция, поиск, тексты, клипы, «Без цензуры», тема Aquarium с Liquid Glass и автообновления. |
+| [**tune-ios**](https://github.com/tune-music/tune-ios) | iOS / iPadOS | Нативный клиент на SwiftUI: «Моя волна», поиск, синхронные тексты, «Без цензуры», офлайн-библиотека, виджет и поддержка CarPlay. |
+| [**tune-android**](https://github.com/tune-music/tune-android) | Android 8.0+ | Нативный клиент на Kotlin: «Моя волна», эквалайзер и звуковые эффекты, синхронный текст, «Без цензуры», офлайн-библиотека, виджет, Ynison и Android Auto. |
+| [**next-music-themes**](https://github.com/tune-music/next-music-themes) | Темы | Коллекция тем и аддонов для Next Music и Tune. |
 
 ## Установка
 
-Нужен Windows 10 или 11.
-
-- **Tune** — установщик или переносная версия из [последнего выпуска](https://github.com/tune-music/tune/releases/latest).
-- **Tune Native** — установщик из [последнего выпуска](https://github.com/tune-music/tune-native/releases/latest). Ставится для текущего пользователя без прав администратора и обычный Tune не трогает.
+- **Tune (Windows)** — установщик или переносная версия из [последнего выпуска](https://github.com/tune-music/tune/releases/latest) (Windows 10/11).
+- **Tune Native (Windows)** — установщик без прав администратора из [последнего выпуска](https://github.com/tune-music/tune-native/releases/latest) (Windows 10/11).
+- **Tune (iOS)** — через SideStore или AltStore по [источнику обновлений](https://github.com/tune-music/tune-ios/releases/latest/download/altstore.json) или из файла [`Tune.ipa`](https://github.com/tune-music/tune-ios/releases/latest/download/Tune.ipa).
+- **Tune (Android)** — APK из [последнего выпуска](https://github.com/tune-music/tune-android/releases/latest) (Android 8.0 и новее); встроенная проверка обновлений работает прямо из приложения.
 
 ---
 
